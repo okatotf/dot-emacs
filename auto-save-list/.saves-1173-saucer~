@@ -1,0 +1,4 @@
+/sudo:root@saucer:/etc/lightdm/lightdm.conf
+/tmp/#!sudo:root@saucer:!etc!lightdm!lightdm.conf#
+/sudo:root@saucer:/opt/prepare-optimus
+/tmp/#!sudo:root@saucer:!opt!prepare-optimus#
