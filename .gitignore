@@ -4,4 +4,6 @@ elpa
 eln-cache
 tramp
 url
+config.el
+custom.el
 

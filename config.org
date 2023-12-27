@@ -2,6 +2,13 @@
 
 * Configuration
 ** Misc
+*** Set Custom File
+#+begin_src emacs-lisp
+  (setq custom-file "~/.emacs.d/custom.el")
+  (when (file-exists-p custom-file)
+    (load custom-file))
+#+end_src
+
 *** Use Y/N Instead of Yes/No
 #+begin_src emacs-lisp
   (fset 'yes-or-no-p 'y-or-n-p)
